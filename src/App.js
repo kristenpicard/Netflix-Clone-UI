@@ -1,17 +1,19 @@
-import "./App.css";
-import "./normalize.css"
-import Navigation from "./components/Navigation";
-import Billboard from "./components/Billboard";
-import Titles from "./components/Titles";
-import Footer from "./components/Footer";
+import './App.css';
+import Billboard from './components/Billboard';
+import Footer from './components/Footer';
+import Navigation from './components/Navigation';
+import Titles from './components/Titles';
+import './normalize.css';
 
 function App() {
-  return <div className="App">
-    <Navigation />
-    <Billboard />
-    <Titles />
-    <Footer />
-  </div>;
+    return (
+        <div className="App">
+            <Billboard />
+            <Navigation />
+            <Titles />
+            <Footer />
+        </div>
+    );
 }
 
 export default App;

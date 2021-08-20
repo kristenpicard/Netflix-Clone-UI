@@ -1,3 +1,15 @@
 .billboard {
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    width: 100%;
+    height: 56.25vw;
+}
+
+.innerBillboar {
+    position: absolute;
+    margin-top: -70px;
 }
