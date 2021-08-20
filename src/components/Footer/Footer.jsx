@@ -1,12 +1,12 @@
 import React from 'react';
+import FooterLinks from '../FooterLinks';
 import SocialLinks from '../SocialLinks';
-// import FooterLinks from ;
 
 const Footer = () => {
     return (
         <footer>
         <SocialLinks />
-        {/* <FooterLinks /> */}
+        <FooterLinks />
         </footer>
     )
 }
