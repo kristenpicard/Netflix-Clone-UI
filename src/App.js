@@ -1,4 +1,3 @@
-import './App.css';
 import Billboard from './components/Billboard';
 import Footer from './components/Footer';
 import Navigation from './components/Navigation';
